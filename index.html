@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <script type="application/javascript" src="js/ejemplo1.js"></script>
+    </head>
+    <body>
+        <form name="formulario1">
+            <table width="90%" border="1px">
+                <tr>
+                    <td width="50%">TEORIA</td>
+                    <td width="50%">PRACTICA</td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Tabla de Teoria -->
+                        <table width="100%">
+                            <tr>
+                                <td>ET1</td>
+                                <td><input type="text" name="et1" placeholder="ET1"></td>
+                            </tr>
+                            <tr>
+                                <td>ET2</td>
+                                <td><input type="text" name="et2" placeholder="ET2"></td>
+                            </tr>
+                            <tr>
+                                <td>ET3</td>
+                                <td><input type="text" name="et3" placeholder="ET3"></td>
+                            </tr>
+                            <tr>
+                                <td>CL</td>
+                                <td><input type="text" name="cl" placeholder="CL"></td>
+                            </tr>
+                            <tr>
+                                <td>NFT</td>
+                                <td><input type="text" name="nft" disabled placeholder="NFT"></td>
+                            </tr>
+                        </table>
+                        <!-- Fin Tabla Teoria -->
+                    </td>
+                    <td>
+                        <!-- Tabla de Practicas -->
+                        <table width="100%">
+                            <tr>
+                                <td>EP1</td>
+                                <td><input type="text" name="ep1" placeholder="EP1"></td>
+                            </tr>
+                            <tr>
+                                <td>EP2</td>
+                                <td><input type="text" name="ep2" placeholder="EP2"></td>
+                            </tr>
+                            <tr>
+                                <td>EP3</td>
+                                <td><input type="text" name="ep3" placeholder="EP3"></td>
+                            </tr>
+                            <tr>
+                                <td>PE</td>
+                                <td><input type="text" name="pe" placeholder="PE"></td>
+                            </tr>
+                            <tr>
+                                <td>TS</td>
+                                <td><input type="text" name="ts" placeholder="ts"></td>
+                            </tr>
+                            <tr>
+                                <td>NFP</td>
+                                <td><input type="text" name="nfp" disabled placeholder="NFP"></td>
+                            </tr>
+                        </table>
+                        <!-- Fin Tabla de Practicas -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    NOTA FINAL <input type="text" disabled name="nf">
+                    </td>
+                    <td>
+                    ESTADO <input type="text" disabled name="estado">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" name="btn1" value="Calcular" onclick="calcular();">
+                        <input type="reset" name="borrar" value="Borrar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
